@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Crystal Collector</title>
+</head>
+<body>
+<div class="container">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<h1>Crystal Collector!</h1>
+		<p>You will be given a random number at the start of the game.
+			<br>
+				There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+			<br>
+				You win the game by matching your total score to the random number. You lose the game if your total score exceeds the amount of the random number.
+			<br>
+				Each time the game starts/restarts, the game will change the value of each crystal.
+		</p>
+	<h2>Number to Reach:</h2>
+	<div class="randomNumber" height="100px" width="200px"></div>
+	<div id="winLoss">
+
+      <div>
+        <h3>Wins: </h3>
+        <span id="wins"></span>
+      </div>
+
+      <div>
+        <h3>Losses: </h3>
+        <span id="losses"></span>
+      </div>
+  </div>
+	<h3>Your total score is:</h3>
+		<br>
+	<div class="totalScore" height="100px" width="200"></div>
+	<div class="btn playAgain">Play Again</div>
+	<div class=row>
+		<div class="crystal1 col-md-3">
+			<img src="https://s3.thcdn.com/productimg/0/600/600/77/10619477-1340982452-230163.jpg" height="250px">
+		</div>
+		<div class="crystal2 col-md-3">
+			<img src="http://www.bluemaize.net/im/girls-jewelry/green-crystals-2.jpg" height="250px">
+		</div>
+		<div class="crystal3 col-md-3">
+			<img src="http://vignette2.wikia.nocookie.net/mikennemonic/images/4/4e/Blue-sign-crystal.jpg/revision/latest?cb=20130823222025"
+			height="250px">
+		</div>
+		<div class="crystal4 col-md-3">
+			<img src="https://cdn2.bigcommerce.com/n-d57o0b/fjb62nx/product_images/uploaded_images/super-mini-super-extra-crystal-cluster-aqua-aura-3-40002-03874.1395415238.1280.1280.jpg?t=1465336077" height="250px">
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="crystalcollecter.js"></script>
+</body>
+</html>
